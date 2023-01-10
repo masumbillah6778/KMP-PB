@@ -1,0 +1,269 @@
+@font-face {
+    font-style: ;
+    font-weight: ;
+    font-family: 'OleoScript';
+    src: url('fonts/OleoScript.ttf')
+  }
+  
+  @font-face {
+    font-style: ;
+    font-weight: ;
+    font-family: 'times new roman';
+    src: url('fonts/times new roman.ttf')
+  }
+  
+  @font-face {
+    font-style: ;
+    font-weight: ;
+    font-family: 'BenSenHandwriting';
+    src: url('fonts/BenSenHandwriting.ttf')
+  }
+  
+  @font-face {
+    font-style: ;
+    font-weight: ;
+    font-family: 'Bornopata-Regular';
+    src: url('fonts/Bornopata-Regular.ttf')
+  }
+  
+  body {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('images/bgimage.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(0,0,0,.8);
+    background-blend-mode: overlay;
+      font-family: 'Bangla', 'Ramaraja' !important;
+  }
+  
+  /*/////////////// Navbar ///////////////*/
+  
+  .navbar .logo {
+    width: 50px;
+    height: 50px;
+    margin: 15px 0px 5px 5px;
+    float: left;
+    border: 2px solid Red;
+    border-radius: 50px;
+  }
+  
+  .navbar {
+    background-color: Green;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    border: 2px solid Red;
+    border-radius: 0px 0px 40px 40px;
+  }
+  
+  .navbar img {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }
+  
+  .navbar a {
+    color: White;
+    font-family: 'times new roman';
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 30px 10px;
+    text-decoration: none;
+    font-size: 10px;
+  }
+  
+  .navbar a:hover {
+    background: Blue;
+    color: White;
+  }
+  
+  .novbar a:active { 
+    background-color: Red;
+    color: white;
+    padding: 2px;
+  }
+  
+  /*/////////////// Sharch ///////////////*/
+  
+  #myInput {
+    background: Red;
+    color: White;
+    width: 100%;
+    height: 10px;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  /*/////////////// h1, h2, h3 ///////////////*/
+  
+  .headline1 p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 130px;
+  }
+  
+  .headline1 spn1 {
+    background: Blue;
+    padding: 5px;
+    font-family: 'Bornopata-Regular';
+    border: 2px solid Red;
+    border-radius: 50px;
+  }
+  
+  .headline1 spn2 {
+    background: Yellow;
+    color: Black;
+    padding: 5px;
+    font-family: 'Bornopata-Regular';
+    border: 2px solid Blue;
+    border-radius: 50px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*/////////////// Main Content ///////////////*/
+  .main {
+    background: ;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*/////////////////// Table //////////////////*/
+  
+  .main #myTable {
+    background: Pin;
+    width: 100%;
+    font-size: 10px;
+    font-family: 'Bornopata-Regular','times new roman';
+    word-spacing: 5px;
+  }
+  
+  .main #myTable th {
+    background: Blue;
+    color: White;
+    text-align: center;
+  }
+  
+  .main #myTable td {
+    background: Yello;
+    color: White;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .main #myTable td ef {
+    font-family: 'times new roman';
+    text-align: center;
+  }
+  
+  .main #myTable td img {
+    background: Yellow;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    margin: 0px 5px;
+    padding: 5px;
+    border: 0px solid Red;
+    border-radius: 50px;
+    box-shadow: 1px 2px 3px violet;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*/////////////footer/////////////*/
+  
+  .footer {
+    background-color: Green;
+    bottom: 0;
+    overflow: hidden;
+    border: 2px solid Red;
+    border-radius: 40px 40px 0px 0px;
+  }
+  
+  .fotter-details p {
+    color: white;
+    font-size: 10px;
+    font-family: 'Bornopata-Regular';
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .fotter-details p ef {
+    color: Yellow;
+    font-family: 'times new roman';
+  }
+  
+  .fotter-details p a {
+    background: blue;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10px;
+    margin: 5px;
+    padding: 5px 5px;
+    border: 2px solid Yellow;
+    border-radius: 30px;
+  }
+  
+  .fotter-details img {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: 3px solid Yellow;
+    border-radius: 10px;
+  }
+  
+  .scroll-left {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    border: 2px solid Red;
+    border-radius: 40px 40px 0px 4px;
+    overflow: hidden;
+  }
+  
+  .scroll-left span {
+    color: White;
+    font-size: 10px;
+    font-family: 'Bornopata-Regular';
+    font-weight: Bold;
+    text-shadow: 1px 1px 3px Black;
+  }
+  
+  .scroll-left ef {
+    font-family: 'times new roman';
+  }
